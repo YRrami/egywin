@@ -476,7 +476,7 @@ body { -ms-overflow-style: none; scrollbar-width: none; }
     grid-template-columns: 1fr 1.7fr;
   }
   .gallery-main-img-box { width: 350px; height: 350px; }
-  .lux-hero-title { font-size: 4rem; }
+  .lux-hero-title { font-size: 3rem; }
   .lux-crafted { font-size: 2rem; }
 }
 
@@ -538,7 +538,7 @@ body { -ms-overflow-style: none; scrollbar-width: none; }
   .lux-crafted { font-size: 1.09em; }
   .lux-hero-desc { font-size: 1.05rem; }
 }
- .lux-hero-title { font-size: 4rem; }
+ .lux-hero-title { font-size: 3rem; }
   .lux-crafted { font-size: 2rem; }
 @media (max-width: 600px) {
   html, body, #root { font-size: 16px; }
@@ -617,12 +617,12 @@ body { -ms-overflow-style: none; scrollbar-width: none; }
 @media (max-width: 400px) {
   .lux-header, .lux-main { min-width: 0; }
   .lux-nav { padding: 0 2px; }
-   .lux-hero-title { font-size: 4rem; }
+   .lux-hero-title { font-size: 3rem; }
   .lux-crafted { font-size: 2rem; }
   .lux-hero-title, .lux-crafted { font-size: 1rem; }
   .lux-mini-card { min-width: 36px; padding: 2px 3px; font-size: 0.67rem; }
   .lux-mini-card-img { width: 12px; height: 12px; border-radius: 3px; }
-   .lux-hero-title { font-size: 4rem; }
+   .lux-hero-title { font-size: 3rem; }
   .lux-crafted { font-size: 2rem; }
 }
 
