@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Optional: design tokens if you want to reference them via CSS vars */
+@theme {
+  --color-cream: #FCF7F1;
+  --color-linen: #F6EFE7;
+  --color-cacao: #4B3B2F;
+  --color-cacao-soft: #6B5646;
+  --color-caramel: #C89B6F;
+  --color-brass: #B8864B;
+  --color-border: #E8DCCD;
+}
+
+/* Utilities */
+@keyframes shimmer {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+.animate-shimmer {
+  background-size: 200% 200%;
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body { margin: 0; }
+button, a { -webkit-tap-highlight-color: transparent; }
